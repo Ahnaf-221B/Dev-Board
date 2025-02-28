@@ -1,16 +1,13 @@
-const button = document.getElementById("theme-controller");
-const body = document.body;
+function updateDate() {
+    const date = new Date();
+    const options = { weekday: 'short' }; 
+    const dayName = date.toLocaleDateString('en-US', options);
+    const fullDate = date.toLocaleDateString('en-US', { 
+        month: 'short', day: '2-digit', year: 'numeric' 
+    });
 
-
-function randomColor() {
-	const letters = "0123456789ABCDEF";
-	let color = "#";
-	for (let i = 0; i < 6; i++) {
-		color += letters[Math.floor(Math.random() * 24)];
-	}
-	return color;
+    document.getElementById("day").textContent = dayName;
+    document.getElementById("full-date").textContent = fullDate;
 }
 
-button.addEventListener("click", function () {
-	body.style.backgroundColor = randomColor();
-});
+updateDate();
