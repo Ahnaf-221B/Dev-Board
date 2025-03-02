@@ -27,7 +27,7 @@
 			<div class="flex gap-5">
 				<div class="flex items-center gap-5 bg-[#F4F7FF] rounded-3xl p-3">
 					<img src="assets/checkbox.png" alt="" />
-					<span class="font-bold text-2xl">23</span>
+					<span id="complete-task-num" class="font-bold text-2xl">23</span>
 				</div>
 				<div id="theme-controller" class="bg-[#F4F7FF] rounded-full p-3">
 					<img src="assets/theme-btn.png" alt="" />
@@ -47,7 +47,7 @@
 						</div>
 						<div>
 							<p class="text-lg">Task Assigned</p>
-							<h1 class="font-bold text-2xl">06</h1>
+							<h1 id="task-assign-num" class="font-bold text-2xl">06</h1>
 						</div>
 					</div>
 					<div
@@ -75,7 +75,9 @@
 					<div class="p-5 bg-[#F4F7FF] rounded-lg">
 						<div class="pb-5 border-b border-dashed border-gray-400">
 							<button class="bg-white p-2 rounded-lg mt-2">ShopEase</button>
-							<h1 class="mt-2 font-bold">Fix Mobile Button Issue</h1>
+							<h1 id="card-title-1" class="mt-2 font-bold">
+								Fix Mobile Button Issue
+							</h1>
 							<p class="bg-white p-2 rounded-lg mt-2 text-gray-500">
 								Debug using Chrome DevTools, check for overlapping elements, and
 								ensure onClick works properly and ensure onClick works properly
@@ -87,7 +89,7 @@
 								<p>21 March 2025</p>
 							</div>
 							<div>
-								<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+								<button class="task-btn bg-[#3752FD] p-2 rounded-lg text-white">
 									Completed
 								</button>
 							</div>
@@ -97,7 +99,7 @@
 					<div class="p-5 bg-[#F4F7FF] rounded-lg">
 						<div class="pb-5 border-b border-dashed border-gray-400">
 							<button class="bg-white p-2 rounded-lg mt-2">Cloud Sync</button>
-							<h1 class="mt-2 font-bold">Add Dark Mode</h1>
+							<h1 id="card-title-2" class="mt-2 font-bold">Add Dark Mode</h1>
 							<p class="bg-white p-2 rounded-lg mt-2 text-gray-500">
 								Store the user's preference in localStorage, update CSS
 								variables dynamically, and apply a smooth transition effect.
@@ -109,7 +111,7 @@
 								<p>21 March 2025</p>
 							</div>
 							<div>
-								<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+								<button class="task-btn bg-[#3752FD] p-2 rounded-lg text-white">
 									Completed
 								</button>
 							</div>
@@ -119,7 +121,9 @@
 					<div class="p-5 bg-[#F4F7FF] rounded-lg">
 						<div class="pb-5 border-b border-dashed border-gray-400">
 							<button class="bg-white p-2 rounded-lg mt-2">SwiftPay</button>
-							<h1 class="mt-2 font-bold">Optimize Home page </h1>
+							<h1 id="card-title-3" class="mt-2 font-bold">
+								Optimize Home page 
+							</h1>
 							<p class="bg-white p-2 rounded-lg mt-2 text-gray-500">
 								Debug using Chrome DevTools, check for overlapping elements, and
 								ensure onClick works properly and ensure onClick works properly
@@ -131,7 +135,7 @@
 								<p>21 March 2025</p>
 							</div>
 							<div>
-								<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+								<button class="task-btn bg-[#3752FD] p-2 rounded-lg text-white">
 									Completed
 								</button>
 							</div>
@@ -141,7 +145,7 @@
 					<div class="p-5 bg-[#F4F7FF] rounded-lg">
 						<div class="pb-5 border-b border-dashed border-gray-400">
 							<button class="bg-white p-2 rounded-lg mt-2">Meta</button>
-							<h1 class="mt-2 font-bold">Add new emoji 🤲</h1>
+							<h1 id="card-title-4" class="mt-2 font-bold">Add new emoji 🤲</h1>
 							<p class="bg-white p-2 rounded-lg mt-2 text-gray-500">
 								Debug using Chrome DevTools, check for overlapping elements, and
 								ensure onClick works properly
@@ -153,7 +157,7 @@
 								<p>21 March 2025</p>
 							</div>
 							<div>
-								<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+								<button class="task-btn bg-[#3752FD] p-2 rounded-lg text-white">
 									Completed
 								</button>
 							</div>
@@ -163,7 +167,9 @@
 					<div class="p-5 bg-[#F4F7FF] rounded-lg">
 						<div class="pb-5 border-b border-dashed border-gray-400">
 							<button class="bg-white p-2 rounded-lg mt-2">Google LLC</button>
-							<h1 class="mt-2 font-bold">Integrate OpenAI API</h1>
+							<h1 id="card-title-5" class="mt-2 font-bold">
+								Integrate OpenAI API
+							</h1>
 							<p class="bg-white p-2 rounded-lg mt-2 text-gray-500">
 								Debug using Chrome DevTools, check for overlapping elements, and
 								ensure onClick works properly
@@ -175,7 +181,7 @@
 								<p>21 March 2025</p>
 							</div>
 							<div>
-								<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+								<button class="task-btn bg-[#3752FD] p-2 rounded-lg text-white">
 									Completed
 								</button>
 							</div>
@@ -185,7 +191,9 @@
 					<div class="p-5 bg-[#F4F7FF] rounded-lg">
 						<div class="pb-5 border-b border-dashed border-gray-400">
 							<button class="bg-white p-2 rounded-lg mt-2">Glassdoar</button>
-							<h1 class="font-bold mt-2">Improve Job searching</h1>
+							<h1 id="card-title-6" class="font-bold mt-2">
+								Improve Job searching
+							</h1>
 							<p class="bg-white p-2 rounded-lg mt-2 text-gray-500">
 								Debug using Chrome DevTools, check for overlapping elements, and
 								ensure onClick works properly
@@ -197,7 +205,7 @@
 								<p>21 March 2025</p>
 							</div>
 							<div>
-								<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+								<button class="task-btn bg-[#3752FD] p-2 rounded-lg text-white">
 									Completed
 								</button>
 							</div>
@@ -215,16 +223,24 @@
 					<p>Activity Log</p>
 				</div>
 				<div class="mt-5">
-					<button class="bg-[#3752FD] p-2 rounded-lg text-white">
+					<button
+						id="clr-history-btn"
+						class="bg-[#3752FD] p-2 rounded-lg text-white"
+					>
 						Clear History
 					</button>
 				</div>
+					<div id="task-complete-container"></div>
 			</div>
+
+		
 		</section>
 
 		<script src="js/theme.js"></script>
 		<script src="js/time.js"></script>
 		<script src="js/toogle.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/tasks.js"></script>
 		<script>
 			document
 				.getElementById("blog-btn")
